@@ -23,7 +23,7 @@ Parameters used for ICP algorithm are as follows:
 - iteration= 60
 - transformation epsilon = 0.001
 
-Obained results are shown below:
+Obatined results are shown below:
 
 ![ICP_1](https://user-images.githubusercontent.com/109758200/189467053-cf1642fc-8601-452f-95c0-2877f2e7e5d2.PNG)
 ![ICP_3](https://user-images.githubusercontent.com/109758200/189467057-ce0de459-217b-4f76-aba6-9581afe38b6a.PNG)
@@ -42,7 +42,7 @@ Parameters used for NDT algorithm are as follows:
 - transformation epsilon = 0.001
 - grid resolution= 5
 
-Obained results are shown below:
+Obtained results are shown below:
 ![NDT_1](https://user-images.githubusercontent.com/109758200/189467044-7ddbb881-73e1-45a0-ab34-fdc073484764.PNG)
 ![NDT_3](https://user-images.githubusercontent.com/109758200/189467047-57586846-3a5a-4591-a486-6711a46d40cb.PNG)
 ![NDT_Final](https://user-images.githubusercontent.com/109758200/189467049-2b4fc184-ed69-4da4-ab58-33cfe79c5e74.PNG)
