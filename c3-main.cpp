@@ -103,12 +103,12 @@ void drawCar(Pose pose, int num, Color color, double alpha, pcl::visualization::
 
 int main(int arg_count, char* arg_vector[]){  
    
-  	//arg_count = argument count, gives the number of arguments passed
+    //arg_count = argument count, gives the number of arguments passed
     //arg_vector = argument vector, it's a char* array of strings
     //arg_vector[0] = name of script
     //arg_vector[1] = our first argument
   	
-  	printf("\n Using %s algorithm...", arg_vector[1]);
+    printf("\n Using %s algorithm...", arg_vector[1]);
   
     //declare NDT_selected variable to handle NDT or ICP algorithm usage based on user input. 
     int NDT_selected; // use NDT algorithm if NDT_selected=1, use ICP algorithm if NDT_selected=0
