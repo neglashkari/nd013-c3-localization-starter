@@ -12,7 +12,7 @@ Project requirements are as follows:
  
 All codes are implemened in `c3-main.cpp`. The code is written in a way that user can select which algorithm (ICP or NDT) to run for localization. Multiple parameters (e.g., iteration, transformation epsilon, resolution, etc.) were tried to achieve the above requirements. 
 
-1. **ICP Algorithm**
+### ICP Algorithm
 
 To run ICP algorithm, we enter the code below after running `carla simulator`: 
 ```
@@ -30,7 +30,7 @@ Obatined results are shown below for 3 instances:
 ![ICP_final](https://user-images.githubusercontent.com/109758200/189467060-87dae090-af3c-4a4a-a44e-de1ac08799e5.PNG)
 
 
-2. **NDT Algorithm**
+### NDT Algorithm
 
 To run NDT algorithm, we enter the code below after running `carla simulator`: 
 ```
