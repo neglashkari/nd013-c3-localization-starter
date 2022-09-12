@@ -12,13 +12,12 @@ Project criteria are as follows:
  
 All codes are implemened in `c3-main.cpp`. The code is written in a way that user can select which algorithm (ICP or NDT) to run for localization. Multiple parameters (e.g., iteration, transformation epsilon, resolution, etc.) were tried to achieve the above requirements. 
 
-### ICP Algorithm
+### Iterative Closest Point (ICP) Algorithm
 
 To run ICP algorithm, we enter the code below after running `carla simulator`: 
 ```
 ./cloud_loc ICP
 ```
-
 Parameters used for ICP algorithm are as follows:
 - iteration= 60
 - transformation epsilon = 0.001
@@ -31,7 +30,7 @@ Obatined results are shown below for 3 instances:
 
 As shown in the last picture, ICP passes all the aforementioned criteria with maximum error of 0.98 m when travelling 175 meter.
 
-### NDT Algorithm
+### Normal Distributions Transform (NDT) Algorithm
 
 To run NDT algorithm, we enter the code below after running `carla simulator`: 
 ```
